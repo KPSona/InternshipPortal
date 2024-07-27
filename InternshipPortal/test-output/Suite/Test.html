@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jul 21 09:57:46 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>88 seconds (88596 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.ict.testcases.AdminLoginTC.mentorLogin_Invalid()'><b>mentorLogin_Invalid</b><br>Test class: org.ict.testcases.AdminLoginTC</td>
+<td></td>
+<td>1</td>
+<td>org.ict.testcases.AdminLoginTC@4466af20</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminLoginTC.mentorLogin_Valid()'><b>mentorLogin_Valid</b><br>Test class: org.ict.testcases.AdminLoginTC</td>
+<td></td>
+<td>2</td>
+<td>org.ict.testcases.AdminLoginTC@4466af20</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminLoginTC.adminLogOut()'><b>adminLogOut</b><br>Test class: org.ict.testcases.AdminLoginTC</td>
+<td></td>
+<td>0</td>
+<td>org.ict.testcases.AdminLoginTC@4466af20</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminLoginTC.mentorLogin_emptyFld()'><b>mentorLogin_emptyFld</b><br>Test class: org.ict.testcases.AdminLoginTC</td>
+<td></td>
+<td>0</td>
+<td>org.ict.testcases.AdminLoginTC@4466af20</td></tr>
+<tr>
+<td title='org.ict.testcases.MentorLoginTC.prjtMark_Update()'><b>prjtMark_Update</b><br>Test class: org.ict.testcases.MentorLoginTC</td>
+<td></td>
+<td>7</td>
+<td>org.ict.testcases.MentorLoginTC@6379eb</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminDashboardTC.projectName_delete()'><b>projectName_delete</b><br>Test class: org.ict.testcases.AdminDashboardTC</td>
+<td></td>
+<td>6</td>
+<td>org.ict.testcases.AdminDashboardTC@4cc451f2</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminDashboardTC.addNewProject_EmptyFld()'><b>addNewProject_EmptyFld</b><br>Test class: org.ict.testcases.AdminDashboardTC</td>
+<td></td>
+<td>1</td>
+<td>org.ict.testcases.AdminDashboardTC@4cc451f2</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminLoginTC.adminLogin_Invalid()'><b>adminLogin_Invalid</b><br>Test class: org.ict.testcases.AdminLoginTC</td>
+<td></td>
+<td>2</td>
+<td>org.ict.testcases.AdminLoginTC@4466af20</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminLoginTC.mentorLogOut()'><b>mentorLogOut</b><br>Test class: org.ict.testcases.AdminLoginTC</td>
+<td></td>
+<td>0</td>
+<td>org.ict.testcases.AdminLoginTC@4466af20</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminLoginTC.adminLogin_Valid()'><b>adminLogin_Valid</b><br>Test class: org.ict.testcases.AdminLoginTC</td>
+<td></td>
+<td>1</td>
+<td>org.ict.testcases.AdminLoginTC@4466af20</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminDashboardTC.adminLogin_Valid()'><b>adminLogin_Valid</b><br>Test class: org.ict.testcases.AdminDashboardTC</td>
+<td></td>
+<td>1</td>
+<td>org.ict.testcases.AdminDashboardTC@4cc451f2</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminDashboardTC.addNewProject_duplicate()'><b>addNewProject_duplicate</b><br>Test class: org.ict.testcases.AdminDashboardTC</td>
+<td></td>
+<td>0</td>
+<td>org.ict.testcases.AdminDashboardTC@4cc451f2</td></tr>
+<tr>
+<td title='org.ict.testcases.MentorLoginTC.addReference()'><b>addReference</b><br>Test class: org.ict.testcases.MentorLoginTC</td>
+<td></td>
+<td>0</td>
+<td>org.ict.testcases.MentorLoginTC@6379eb</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminLoginTC.adminLogin_emptyFld()'><b>adminLogin_emptyFld</b><br>Test class: org.ict.testcases.AdminLoginTC</td>
+<td></td>
+<td>0</td>
+<td>org.ict.testcases.AdminLoginTC@4466af20</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminDashboardTC.mentorForm_empty()'><b>mentorForm_empty</b><br>Test class: org.ict.testcases.AdminDashboardTC</td>
+<td></td>
+<td>0</td>
+<td>org.ict.testcases.AdminDashboardTC@4cc451f2</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminDashboardTC.adminLogOut()'><b>adminLogOut</b><br>Test class: org.ict.testcases.AdminDashboardTC</td>
+<td></td>
+<td>0</td>
+<td>org.ict.testcases.AdminDashboardTC@4cc451f2</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminDashboardTC.mentorForm_invalid()'><b>mentorForm_invalid</b><br>Test class: org.ict.testcases.AdminDashboardTC</td>
+<td></td>
+<td>2</td>
+<td>org.ict.testcases.AdminDashboardTC@4cc451f2</td></tr>
+<tr>
+<td title='org.ict.testcases.MentorLoginTC.mentorLogin_Valid()'><b>mentorLogin_Valid</b><br>Test class: org.ict.testcases.MentorLoginTC</td>
+<td></td>
+<td>2</td>
+<td>org.ict.testcases.MentorLoginTC@6379eb</td></tr>
+<tr>
+<td title='org.ict.testcases.MentorLoginTC.prjt_evaluate()'><b>prjt_evaluate</b><br>Test class: org.ict.testcases.MentorLoginTC</td>
+<td></td>
+<td>7</td>
+<td>org.ict.testcases.MentorLoginTC@6379eb</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminDashboardTC.projectName_cancel()'><b>projectName_cancel</b><br>Test class: org.ict.testcases.AdminDashboardTC</td>
+<td></td>
+<td>0</td>
+<td>org.ict.testcases.AdminDashboardTC@4cc451f2</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminDashboardTC.mentorForm_valid()'><b>mentorForm_valid</b><br>Test class: org.ict.testcases.AdminDashboardTC</td>
+<td></td>
+<td>11</td>
+<td>org.ict.testcases.AdminDashboardTC@4cc451f2</td></tr>
+<tr>
+<td title='org.ict.testcases.MentorLoginTC.dltReference()'><b>dltReference</b><br>Test class: org.ict.testcases.MentorLoginTC</td>
+<td></td>
+<td>7</td>
+<td>org.ict.testcases.MentorLoginTC@6379eb</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminDashboardTC.mentorForm_ListDlt()'><b>mentorForm_ListDlt</b><br>Test class: org.ict.testcases.AdminDashboardTC</td>
+<td></td>
+<td>10</td>
+<td>org.ict.testcases.AdminDashboardTC@4cc451f2</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminDashboardTC.addNewProject()'><b>addNewProject</b><br>Test class: org.ict.testcases.AdminDashboardTC</td>
+<td></td>
+<td>0</td>
+<td>org.ict.testcases.AdminDashboardTC@4cc451f2</td></tr>
+<tr>
+<td title='org.ict.testcases.MentorLoginTC.deleteSubmission()'><b>deleteSubmission</b><br>Test class: org.ict.testcases.MentorLoginTC</td>
+<td></td>
+<td>6</td>
+<td>org.ict.testcases.MentorLoginTC@6379eb</td></tr>
+<tr>
+<td title='org.ict.testcases.AdminDashboardTC.projectName_Edit()'><b>projectName_Edit</b><br>Test class: org.ict.testcases.AdminDashboardTC</td>
+<td></td>
+<td>11</td>
+<td>org.ict.testcases.AdminDashboardTC@4cc451f2</td></tr>
+</table><p>
+</body>
+</html>

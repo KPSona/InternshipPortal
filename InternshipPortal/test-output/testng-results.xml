@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="30" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-21T09:57:46 IST" name="Suite" finished-at="2024-07-21T09:59:15 IST" duration-ms="88596">
+    <groups>
+    </groups>
+    <test started-at="2024-07-21T09:57:46 IST" name="Test" finished-at="2024-07-21T09:59:15 IST" duration-ms="88596">
+      <class name="org.ict.testcases.AdminDashboardTC">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:org.ict.testcases.AdminDashboardTC@4cc451f2]" started-at="2024-07-21T09:57:56 IST" name="classSetup" finished-at="2024-07-21T09:57:56 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method signature="adminLogin_Valid()[pri:9, instance:org.ict.testcases.AdminDashboardTC@4cc451f2]" started-at="2024-07-21T09:57:56 IST" name="adminLogin_Valid" finished-at="2024-07-21T09:57:58 IST" duration-ms="1482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin_Valid -->
+        <test-method signature="addNewProject()[pri:10, instance:org.ict.testcases.AdminDashboardTC@4cc451f2]" started-at="2024-07-21T09:57:58 IST" name="addNewProject" finished-at="2024-07-21T09:57:58 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewProject -->
+        <test-method signature="addNewProject_EmptyFld()[pri:11, instance:org.ict.testcases.AdminDashboardTC@4cc451f2]" started-at="2024-07-21T09:57:58 IST" name="addNewProject_EmptyFld" finished-at="2024-07-21T09:57:59 IST" duration-ms="1392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewProject_EmptyFld -->
+        <test-method signature="addNewProject_duplicate()[pri:12, instance:org.ict.testcases.AdminDashboardTC@4cc451f2]" started-at="2024-07-21T09:57:59 IST" name="addNewProject_duplicate" finished-at="2024-07-21T09:58:00 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewProject_duplicate -->
+        <test-method signature="projectName_Edit()[pri:13, instance:org.ict.testcases.AdminDashboardTC@4cc451f2]" started-at="2024-07-21T09:58:00 IST" name="projectName_Edit" finished-at="2024-07-21T09:58:11 IST" duration-ms="11329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectName_Edit -->
+        <test-method signature="projectName_cancel()[pri:14, instance:org.ict.testcases.AdminDashboardTC@4cc451f2]" started-at="2024-07-21T09:58:11 IST" name="projectName_cancel" finished-at="2024-07-21T09:58:11 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectName_cancel -->
+        <test-method signature="projectName_delete()[pri:15, instance:org.ict.testcases.AdminDashboardTC@4cc451f2]" started-at="2024-07-21T09:58:11 IST" name="projectName_delete" finished-at="2024-07-21T09:58:18 IST" duration-ms="6102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectName_delete -->
+        <test-method signature="mentorForm_valid()[pri:16, instance:org.ict.testcases.AdminDashboardTC@4cc451f2]" started-at="2024-07-21T09:58:18 IST" name="mentorForm_valid" finished-at="2024-07-21T09:58:29 IST" duration-ms="11323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mentorForm_valid -->
+        <test-method signature="mentorForm_invalid()[pri:17, instance:org.ict.testcases.AdminDashboardTC@4cc451f2]" started-at="2024-07-21T09:58:29 IST" name="mentorForm_invalid" finished-at="2024-07-21T09:58:31 IST" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mentorForm_invalid -->
+        <test-method signature="mentorForm_empty()[pri:18, instance:org.ict.testcases.AdminDashboardTC@4cc451f2]" started-at="2024-07-21T09:58:31 IST" name="mentorForm_empty" finished-at="2024-07-21T09:58:32 IST" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mentorForm_empty -->
+        <test-method signature="mentorForm_ListDlt()[pri:19, instance:org.ict.testcases.AdminDashboardTC@4cc451f2]" started-at="2024-07-21T09:58:32 IST" name="mentorForm_ListDlt" finished-at="2024-07-21T09:58:43 IST" duration-ms="10796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mentorForm_ListDlt -->
+        <test-method signature="adminLogOut()[pri:20, instance:org.ict.testcases.AdminDashboardTC@4cc451f2]" started-at="2024-07-21T09:58:43 IST" name="adminLogOut" finished-at="2024-07-21T09:58:43 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogOut -->
+      </class> <!-- org.ict.testcases.AdminDashboardTC -->
+      <class name="org.ict.testcases.AdminLoginTC">
+        <test-method is-config="true" signature="launch()[pri:0, instance:org.ict.testcases.AdminLoginTC@4466af20]" started-at="2024-07-21T09:57:42 IST" name="launch" finished-at="2024-07-21T09:57:46 IST" duration-ms="4085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:org.ict.testcases.AdminLoginTC@4466af20]" started-at="2024-07-21T09:57:46 IST" name="classSetup" finished-at="2024-07-21T09:57:46 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method signature="adminLogin_emptyFld()[pri:1, instance:org.ict.testcases.AdminLoginTC@4466af20]" started-at="2024-07-21T09:57:46 IST" name="adminLogin_emptyFld" finished-at="2024-07-21T09:57:47 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin_emptyFld -->
+        <test-method signature="adminLogin_Invalid()[pri:2, instance:org.ict.testcases.AdminLoginTC@4466af20]" started-at="2024-07-21T09:57:47 IST" name="adminLogin_Invalid" finished-at="2024-07-21T09:57:49 IST" duration-ms="2478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin_Invalid -->
+        <test-method signature="adminLogin_Valid()[pri:3, instance:org.ict.testcases.AdminLoginTC@4466af20]" started-at="2024-07-21T09:57:49 IST" name="adminLogin_Valid" finished-at="2024-07-21T09:57:51 IST" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin_Valid -->
+        <test-method signature="adminLogOut()[pri:4, instance:org.ict.testcases.AdminLoginTC@4466af20]" started-at="2024-07-21T09:57:51 IST" name="adminLogOut" finished-at="2024-07-21T09:57:51 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogOut -->
+        <test-method signature="mentorLogin_emptyFld()[pri:5, instance:org.ict.testcases.AdminLoginTC@4466af20]" started-at="2024-07-21T09:57:51 IST" name="mentorLogin_emptyFld" finished-at="2024-07-21T09:57:52 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mentorLogin_emptyFld -->
+        <test-method signature="mentorLogin_Invalid()[pri:6, instance:org.ict.testcases.AdminLoginTC@4466af20]" started-at="2024-07-21T09:57:52 IST" name="mentorLogin_Invalid" finished-at="2024-07-21T09:57:53 IST" duration-ms="1720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mentorLogin_Invalid -->
+        <test-method signature="mentorLogin_Valid()[pri:7, instance:org.ict.testcases.AdminLoginTC@4466af20]" started-at="2024-07-21T09:57:53 IST" name="mentorLogin_Valid" finished-at="2024-07-21T09:57:56 IST" duration-ms="2625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mentorLogin_Valid -->
+        <test-method signature="mentorLogOut()[pri:8, instance:org.ict.testcases.AdminLoginTC@4466af20]" started-at="2024-07-21T09:57:56 IST" name="mentorLogOut" finished-at="2024-07-21T09:57:56 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mentorLogOut -->
+        <test-method is-config="true" signature="new_setup()[pri:0, instance:org.ict.testcases.AdminLoginTC@4466af20]" started-at="2024-07-21T09:59:15 IST" name="new_setup" finished-at="2024-07-21T09:59:15 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- new_setup -->
+      </class> <!-- org.ict.testcases.AdminLoginTC -->
+      <class name="org.ict.testcases.MentorLoginTC">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:org.ict.testcases.MentorLoginTC@6379eb]" started-at="2024-07-21T09:58:43 IST" name="classSetup" finished-at="2024-07-21T09:58:43 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method signature="mentorLogin_Valid()[pri:1, instance:org.ict.testcases.MentorLoginTC@6379eb]" started-at="2024-07-21T09:58:43 IST" name="mentorLogin_Valid" finished-at="2024-07-21T09:58:45 IST" duration-ms="2180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mentorLogin_Valid -->
+        <test-method signature="prjt_evaluate()[pri:2, instance:org.ict.testcases.MentorLoginTC@6379eb]" started-at="2024-07-21T09:58:45 IST" name="prjt_evaluate" finished-at="2024-07-21T09:58:53 IST" duration-ms="7813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prjt_evaluate -->
+        <test-method signature="prjtMark_Update()[pri:3, instance:org.ict.testcases.MentorLoginTC@6379eb]" started-at="2024-07-21T09:58:53 IST" name="prjtMark_Update" finished-at="2024-07-21T09:59:00 IST" duration-ms="7198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prjtMark_Update -->
+        <test-method signature="deleteSubmission()[pri:4, instance:org.ict.testcases.MentorLoginTC@6379eb]" started-at="2024-07-21T09:59:00 IST" name="deleteSubmission" finished-at="2024-07-21T09:59:07 IST" duration-ms="6909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSubmission -->
+        <test-method signature="addReference()[pri:5, instance:org.ict.testcases.MentorLoginTC@6379eb]" started-at="2024-07-21T09:59:07 IST" name="addReference" finished-at="2024-07-21T09:59:08 IST" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReference -->
+        <test-method signature="dltReference()[pri:6, instance:org.ict.testcases.MentorLoginTC@6379eb]" started-at="2024-07-21T09:59:08 IST" name="dltReference" finished-at="2024-07-21T09:59:15 IST" duration-ms="7124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dltReference -->
+      </class> <!-- org.ict.testcases.MentorLoginTC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

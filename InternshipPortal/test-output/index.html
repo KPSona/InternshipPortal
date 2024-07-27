@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\kpson\Internship_Portal\InternshipPortal\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminDashboardTC" class="method navigator-link" hash-for-method="addNewProject">addNewProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminDashboardTC" class="method navigator-link" hash-for-method="addNewProject_EmptyFld">addNewProject_EmptyFld</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminDashboardTC" class="method navigator-link" hash-for-method="addNewProject_duplicate">addNewProject_duplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.MentorLoginTC" class="method navigator-link" hash-for-method="addReference">addReference</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminLoginTC" class="method navigator-link" hash-for-method="adminLogOut">adminLogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminDashboardTC" class="method navigator-link" hash-for-method="adminLogOut">adminLogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminLoginTC" class="method navigator-link" hash-for-method="adminLogin_Invalid">adminLogin_Invalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminLoginTC" class="method navigator-link" hash-for-method="adminLogin_Valid">adminLogin_Valid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminDashboardTC" class="method navigator-link" hash-for-method="adminLogin_Valid">adminLogin_Valid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminLoginTC" class="method navigator-link" hash-for-method="adminLogin_emptyFld">adminLogin_emptyFld</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.MentorLoginTC" class="method navigator-link" hash-for-method="deleteSubmission">deleteSubmission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.MentorLoginTC" class="method navigator-link" hash-for-method="dltReference">dltReference</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminDashboardTC" class="method navigator-link" hash-for-method="mentorForm_ListDlt">mentorForm_ListDlt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminDashboardTC" class="method navigator-link" hash-for-method="mentorForm_empty">mentorForm_empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminDashboardTC" class="method navigator-link" hash-for-method="mentorForm_invalid">mentorForm_invalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminDashboardTC" class="method navigator-link" hash-for-method="mentorForm_valid">mentorForm_valid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminLoginTC" class="method navigator-link" hash-for-method="mentorLogOut">mentorLogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminLoginTC" class="method navigator-link" hash-for-method="mentorLogin_Invalid">mentorLogin_Invalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminLoginTC" class="method navigator-link" hash-for-method="mentorLogin_Valid">mentorLogin_Valid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.MentorLoginTC" class="method navigator-link" hash-for-method="mentorLogin_Valid">mentorLogin_Valid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminLoginTC" class="method navigator-link" hash-for-method="mentorLogin_emptyFld">mentorLogin_emptyFld</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.MentorLoginTC" class="method navigator-link" hash-for-method="prjtMark_Update">prjtMark_Update</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.MentorLoginTC" class="method navigator-link" hash-for-method="prjt_evaluate">prjt_evaluate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminDashboardTC" class="method navigator-link" hash-for-method="projectName_Edit">projectName_Edit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminDashboardTC" class="method navigator-link" hash-for-method="projectName_cancel">projectName_cancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ict.testcases.AdminDashboardTC" class="method navigator-link" hash-for-method="projectName_delete">projectName_delete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.ict.testcases.AdminDashboardTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewProject">
+                  </a> <!-- addNewProject -->
+                  <span class="method-name">addNewProject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewProject_EmptyFld">
+                  </a> <!-- addNewProject_EmptyFld -->
+                  <span class="method-name">addNewProject_EmptyFld</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewProject_duplicate">
+                  </a> <!-- addNewProject_duplicate -->
+                  <span class="method-name">addNewProject_duplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminLogOut">
+                  </a> <!-- adminLogOut -->
+                  <span class="method-name">adminLogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminLogin_Valid">
+                  </a> <!-- adminLogin_Valid -->
+                  <span class="method-name">adminLogin_Valid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mentorForm_ListDlt">
+                  </a> <!-- mentorForm_ListDlt -->
+                  <span class="method-name">mentorForm_ListDlt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mentorForm_empty">
+                  </a> <!-- mentorForm_empty -->
+                  <span class="method-name">mentorForm_empty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mentorForm_invalid">
+                  </a> <!-- mentorForm_invalid -->
+                  <span class="method-name">mentorForm_invalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mentorForm_valid">
+                  </a> <!-- mentorForm_valid -->
+                  <span class="method-name">mentorForm_valid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="projectName_Edit">
+                  </a> <!-- projectName_Edit -->
+                  <span class="method-name">projectName_Edit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="projectName_cancel">
+                  </a> <!-- projectName_cancel -->
+                  <span class="method-name">projectName_cancel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="projectName_delete">
+                  </a> <!-- projectName_delete -->
+                  <span class="method-name">projectName_delete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.ict.testcases.MentorLoginTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addReference">
+                  </a> <!-- addReference -->
+                  <span class="method-name">addReference</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteSubmission">
+                  </a> <!-- deleteSubmission -->
+                  <span class="method-name">deleteSubmission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dltReference">
+                  </a> <!-- dltReference -->
+                  <span class="method-name">dltReference</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mentorLogin_Valid">
+                  </a> <!-- mentorLogin_Valid -->
+                  <span class="method-name">mentorLogin_Valid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="prjtMark_Update">
+                  </a> <!-- prjtMark_Update -->
+                  <span class="method-name">prjtMark_Update</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="prjt_evaluate">
+                  </a> <!-- prjt_evaluate -->
+                  <span class="method-name">prjt_evaluate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.ict.testcases.AdminLoginTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminLogOut">
+                  </a> <!-- adminLogOut -->
+                  <span class="method-name">adminLogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminLogin_Invalid">
+                  </a> <!-- adminLogin_Invalid -->
+                  <span class="method-name">adminLogin_Invalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminLogin_Valid">
+                  </a> <!-- adminLogin_Valid -->
+                  <span class="method-name">adminLogin_Valid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminLogin_emptyFld">
+                  </a> <!-- adminLogin_emptyFld -->
+                  <span class="method-name">adminLogin_emptyFld</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mentorLogOut">
+                  </a> <!-- mentorLogOut -->
+                  <span class="method-name">mentorLogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mentorLogin_Invalid">
+                  </a> <!-- mentorLogin_Invalid -->
+                  <span class="method-name">mentorLogin_Invalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mentorLogin_Valid">
+                  </a> <!-- mentorLogin_Valid -->
+                  <span class="method-name">mentorLogin_Valid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mentorLogin_emptyFld">
+                  </a> <!-- mentorLogin_emptyFld -->
+                  <span class="method-name">mentorLogin_emptyFld</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\kpson\Internship_Portal\InternshipPortal\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.ict.testcases.AdminLoginTC&quot;/&gt;
+      &lt;class name=&quot;org.ict.testcases.AdminDashboardTC&quot;/&gt;
+      &lt;class name=&quot;org.ict.testcases.MentorLoginTC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'projectName_Edit')
+data.setCell(0, 2, 'org.ict.testcases.AdminDashboardTC')
+data.setCell(0, 3, 11329);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'mentorForm_valid')
+data.setCell(1, 2, 'org.ict.testcases.AdminDashboardTC')
+data.setCell(1, 3, 11323);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'mentorForm_ListDlt')
+data.setCell(2, 2, 'org.ict.testcases.AdminDashboardTC')
+data.setCell(2, 3, 10796);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'prjt_evaluate')
+data.setCell(3, 2, 'org.ict.testcases.MentorLoginTC')
+data.setCell(3, 3, 7813);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'prjtMark_Update')
+data.setCell(4, 2, 'org.ict.testcases.MentorLoginTC')
+data.setCell(4, 3, 7198);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dltReference')
+data.setCell(5, 2, 'org.ict.testcases.MentorLoginTC')
+data.setCell(5, 3, 7124);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'deleteSubmission')
+data.setCell(6, 2, 'org.ict.testcases.MentorLoginTC')
+data.setCell(6, 3, 6909);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'projectName_delete')
+data.setCell(7, 2, 'org.ict.testcases.AdminDashboardTC')
+data.setCell(7, 3, 6102);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'mentorLogin_Valid')
+data.setCell(8, 2, 'org.ict.testcases.AdminLoginTC')
+data.setCell(8, 3, 2625);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'adminLogin_Invalid')
+data.setCell(9, 2, 'org.ict.testcases.AdminLoginTC')
+data.setCell(9, 3, 2478);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'mentorLogin_Valid')
+data.setCell(10, 2, 'org.ict.testcases.MentorLoginTC')
+data.setCell(10, 3, 2180);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'mentorForm_invalid')
+data.setCell(11, 2, 'org.ict.testcases.AdminDashboardTC')
+data.setCell(11, 3, 2018);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'mentorLogin_Invalid')
+data.setCell(12, 2, 'org.ict.testcases.AdminLoginTC')
+data.setCell(12, 3, 1720);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'adminLogin_Valid')
+data.setCell(13, 2, 'org.ict.testcases.AdminLoginTC')
+data.setCell(13, 3, 1717);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'adminLogin_Valid')
+data.setCell(14, 2, 'org.ict.testcases.AdminDashboardTC')
+data.setCell(14, 3, 1482);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'addNewProject_EmptyFld')
+data.setCell(15, 2, 'org.ict.testcases.AdminDashboardTC')
+data.setCell(15, 3, 1392);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'mentorForm_empty')
+data.setCell(16, 2, 'org.ict.testcases.AdminDashboardTC')
+data.setCell(16, 3, 953);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'addReference')
+data.setCell(17, 2, 'org.ict.testcases.MentorLoginTC')
+data.setCell(17, 3, 874);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'adminLogin_emptyFld')
+data.setCell(18, 2, 'org.ict.testcases.AdminLoginTC')
+data.setCell(18, 3, 565);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'addNewProject_duplicate')
+data.setCell(19, 2, 'org.ict.testcases.AdminDashboardTC')
+data.setCell(19, 3, 505);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'addNewProject')
+data.setCell(20, 2, 'org.ict.testcases.AdminDashboardTC')
+data.setCell(20, 3, 427);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'mentorLogin_emptyFld')
+data.setCell(21, 2, 'org.ict.testcases.AdminLoginTC')
+data.setCell(21, 3, 416);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'projectName_cancel')
+data.setCell(22, 2, 'org.ict.testcases.AdminDashboardTC')
+data.setCell(22, 3, 175);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'adminLogOut')
+data.setCell(23, 2, 'org.ict.testcases.AdminDashboardTC')
+data.setCell(23, 3, 153);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'adminLogOut')
+data.setCell(24, 2, 'org.ict.testcases.AdminLoginTC')
+data.setCell(24, 3, 103);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'mentorLogOut')
+data.setCell(25, 2, 'org.ict.testcases.AdminLoginTC')
+data.setCell(25, 3, 91);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.ict.testcases.AdminDashboardTC</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">new_setup</span>
+                <br/>
+                <span class="ignored-method-name">launch</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.ict.testcases.MentorLoginTC</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">new_setup</span>
+                <br/>
+                <span class="ignored-method-name">launch</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.ict.testcases.AdminLoginTC</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">classSetup</span>
+                <span class="method-start">4107 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">adminLogin_emptyFld</span>
+                <span class="method-start">4135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">adminLogin_Invalid</span>
+                <span class="method-start">4704 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">adminLogin_Valid</span>
+                <span class="method-start">7186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">adminLogOut</span>
+                <span class="method-start">8904 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mentorLogin_emptyFld</span>
+                <span class="method-start">9008 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mentorLogin_Invalid</span>
+                <span class="method-start">9426 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mentorLogin_Valid</span>
+                <span class="method-start">11148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mentorLogOut</span>
+                <span class="method-start">13775 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.ict.testcases.AdminDashboardTC</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">classSetup</span>
+                <span class="method-start">13867 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">adminLogin_Valid</span>
+                <span class="method-start">13873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewProject</span>
+                <span class="method-start">15361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewProject_EmptyFld</span>
+                <span class="method-start">15789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewProject_duplicate</span>
+                <span class="method-start">17182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">projectName_Edit</span>
+                <span class="method-start">17691 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">projectName_cancel</span>
+                <span class="method-start">29024 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">projectName_delete</span>
+                <span class="method-start">29200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mentorForm_valid</span>
+                <span class="method-start">35304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mentorForm_invalid</span>
+                <span class="method-start">46627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mentorForm_empty</span>
+                <span class="method-start">48653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mentorForm_ListDlt</span>
+                <span class="method-start">49608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">adminLogOut</span>
+                <span class="method-start">60404 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.ict.testcases.MentorLoginTC</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">classSetup</span>
+                <span class="method-start">60558 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">mentorLogin_Valid</span>
+                <span class="method-start">60572 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">prjt_evaluate</span>
+                <span class="method-start">62753 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">prjtMark_Update</span>
+                <span class="method-start">70568 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteSubmission</span>
+                <span class="method-start">77768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addReference</span>
+                <span class="method-start">84680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dltReference</span>
+                <span class="method-start">85556 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.ict.testcases.AdminLoginTC</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">new_setup</span>
+                <span class="method-start">92740 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
